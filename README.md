@@ -22,3 +22,20 @@ Optimization techniques directly impact model performance, efficiency, and adapt
 - Jupyter Notebook: Follow Jupyter Installation instructions.
 ### *Libraries*
 Run the following command to install required libraries:
+
+pip install numpy pandas matplotlib scikit-learn tensorflow
+
+### *Impact of this Project*
+By understanding optimization basics, you'll gain:
+
+- Enhanced Model Efficiency: Making ML models lightweight and efficient is critical for edge AI deployment, especially in mobile and IoT environments.
+- Robust ML Foundations: Optimization skills are crucial in tuning models, making them adaptable to diverse applications, from image recognition to language processing.
+- Edge AI-Ready Skills: Optimization enables models to perform better with limited resources, setting the stage for more advanced work in edge computing.
+
+### *Future Directions*
+This project serves as a foundation for more advanced optimization studies, such as:
+
+- Federated Learning: Applying optimized models in decentralized environments.
+- Reinforcement Learning: Enhancing agent efficiency in resource-constrained settings.
+- Quantization and Pruning: Advanced model compression techniques for real-world edge deployment.
+
