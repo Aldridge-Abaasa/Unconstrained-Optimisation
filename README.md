@@ -39,3 +39,15 @@ This project serves as a foundation for more advanced optimization studies, such
 - Reinforcement Learning: Enhancing agent efficiency in resource-constrained settings.
 - Quantization and Pruning: Advanced model compression techniques for real-world edge deployment.
 
+Other investigations: (Maybe; adapted for edge AI:)
+
+- Model Compression: Techniques like quantization, pruning, and knowledge distillation make models smaller and faster, suitable for low-power devices. Introducing these in the project could bridge it toward edge-specific optimization.
+
+- Real-Time Inference: Edge AI often demands real-time or near-real-time processing, meaning that the project could benefit from evaluating the latency impact of different optimizations. Testing the runtime speed and inference latency on different hardware (or emulations of edge devices) would make it more applicable to edge contexts.
+
+- Energy Efficiency: Edge devices prioritize energy-efficient operations. Adding sections to this project that measure and reduce computational costs, or apply energy-aware optimization techniques, would enhance its relevance.
+
+- Resource Constraints: Typical edge devices have limited memory and compute resources. You could incorporate techniques like low-rank factorization, feature selection, or hardware-specific optimizations (e.g., using integer math for quantized models on compatible hardware) to make models more compact and efficient for edge use.
+
+Deployment Scenarios: Edge AI typically requires models to be tested in decentralized or distributed environments, which often involves managing constraints like intermittent connectivity or limited device control. Including a section on deploying and managing models in edge environments could round out this project.
+
